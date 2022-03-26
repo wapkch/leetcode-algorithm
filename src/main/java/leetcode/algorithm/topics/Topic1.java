@@ -1,4 +1,4 @@
-package main.java.leetcode.algorithm.topic01;
+package main.java.leetcode.algorithm.topics;
 
 /**
  * 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，
@@ -9,7 +9,7 @@ package main.java.leetcode.algorithm.topic01;
  * 2. n 将在 [1, 10000]之间。
  * 3. nums 的每个元素都将在 [-9999, 9999]之间。
  */
-public class Solution {
+public class Topic1 {
 
     public static void main(String[] args) {
         int[] nums = new int[]{-1, 0,3,5,6,8,10,12};
