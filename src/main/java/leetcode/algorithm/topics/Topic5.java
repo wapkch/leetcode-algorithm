@@ -29,6 +29,8 @@ public class Topic5 {
     /**
      * 本质是将元素i --> 元素(i+k)%n 
      * 
+     * 时间：O(n)
+     * 空间：O(n)
      * @param nums
      * @param k
      */
@@ -93,6 +95,8 @@ public class Topic5 {
      * @param k
      */
     public static void rotate3(int[] nums, int k) {
+        k %= nums.length;
+
         reverse(nums, 0, nums.length - 1);
         reverse(nums, 0, k - 1);
         reverse(nums, k, nums.length - 1);
